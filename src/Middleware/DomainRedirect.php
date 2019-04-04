@@ -2,7 +2,6 @@
 
 namespace Devfaysal\LaravelDomainRedirect\Middleware;
 
-
 use Closure;
 
 class DomainRedirect
@@ -16,13 +15,10 @@ class DomainRedirect
      */
     public function handle($request, Closure $next)
     {
-
-        if(config('laravel-domain-redirect.redirect') == true){
-
-            return redirect(config('laravel-domain-redirect.redirect_to') . '/' .$request->path(),  config('laravel-domain-redirect.redirect_status_code'));
-
+        if (config('laravel-domain-redirect.redirect') == true) {
+            return redirect(config('laravel-domain-redirect.redirect_to').'/'.$request->path(), config('laravel-domain-redirect.redirect_status_code'));
         }
-        
+
         return $next($request);
     }
 }
