@@ -3,6 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/devfaysal/laravel-domain-redirect.svg?style=flat-square)](https://packagist.org/packages/devfaysal/laravel-domain-redirect)
 [![Build Status](https://img.shields.io/travis/devfaysal/laravel-domain-redirect/master.svg?style=flat-square)](https://travis-ci.org/devfaysal/laravel-domain-redirect)
 [![Quality Score](https://img.shields.io/scrutinizer/g/devfaysal/laravel-domain-redirect.svg?style=flat-square)](https://scrutinizer-ci.com/g/devfaysal/laravel-domain-redirect)
+[![Code Style](https://github.styleci.io/repos/179426466/shield?branch=master)](https://github.styleci.io/repos/179426466)
 [![Total Downloads](https://img.shields.io/packagist/dt/devfaysal/laravel-domain-redirect.svg?style=flat-square)](https://packagist.org/packages/devfaysal/laravel-domain-redirect)
 
 Redirect laravel routes to another domain using middleware.
