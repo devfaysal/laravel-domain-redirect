@@ -5,7 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/devfaysal/laravel-domain-redirect.svg?style=flat-square)](https://scrutinizer-ci.com/g/devfaysal/laravel-domain-redirect)
 [![Total Downloads](https://img.shields.io/packagist/dt/devfaysal/laravel-domain-redirect.svg?style=flat-square)](https://packagist.org/packages/devfaysal/laravel-domain-redirect)
 
-Redirect all of the laravel routes to another domain.
+Redirect laravel routes to another domain using middleware.
 Example: http://example.com/some-route will redirect to http://anothersite.com/some-route
 
 ## Installation
