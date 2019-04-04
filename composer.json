@@ -1,0 +1,54 @@
+{
+    "name": "devfaysal/laravel-domain-redirect",
+    "description": "",
+    "keywords": [
+        "devfaysal",
+        "laravel-domain-redirect"
+    ],
+    "homepage": "https://github.com/devfaysal/laravel-domain-redirect",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Faysal Ahamed",
+            "email": "hello@faysal.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devfaysal\\LaravelDomainRedirect\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Devfaysal\\LaravelDomainRedirect\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devfaysal\\LaravelDomainRedirect\\LaravelDomainRedirectServiceProvider"
+            ],
+            "aliases": {
+                "LaravelDomainRedirect": "Devfaysal\\LaravelDomainRedirect\\LaravelDomainRedirectFacade"
+            }
+        }
+    }
+}
