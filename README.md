@@ -22,6 +22,7 @@ Publish Config file to set domain
 ``` php
 php artisan vendor:publish --tag=domainRedirect
 ```
+add ```domainRedirect``` middleware to the routes that you want to redirect to the domain you just set in the config file
 
 ### Testing
 
